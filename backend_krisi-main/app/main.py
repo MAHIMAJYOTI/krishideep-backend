@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from models import CropInput
+from app.models import CropInput
+
 import joblib
 import pandas as pd
 import os
